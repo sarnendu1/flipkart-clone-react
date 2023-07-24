@@ -1,5 +1,5 @@
 import axios from 'axios';
-const url = 'http://localhost:8000';
+const url = 'https://flipkart-clone-backend-xtu5.onrender.com/';
 
 export const loadRazorpay=(price)=> {
     const orderAmount=price+"00";
